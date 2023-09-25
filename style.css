@@ -25,7 +25,14 @@ header {
 
   background-color: #c7ddea;
 }
-header > :nth-child(1) {
+
+ul {
+  /* Importera fonts */
+  display: flex;
+  justify-content: space-around;
+}
+
+****** Nav ****** header > :nth-child(1) {
   grid-column: 1 / span 3;
   grid-row: 1 / span 2;
 }
