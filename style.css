@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Frank Ruhl Libre", serif;
+
   font-family: "Fira Sans", sans-serif;
 }
 h2 {
@@ -139,7 +140,7 @@ aside:nth-child(1) {
   flex-direction: column;
   padding-right: 5rem;
   padding-bottom: 5rem;
-  /* Hejhallå testing testing */
+
 }
 
 aside:nth-child(2) {
