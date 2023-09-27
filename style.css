@@ -52,9 +52,7 @@ header h1 {
   font-weight: 900;
   font-family: "Frank Ruhl Libre", serif;
 }
-/* header:nth-child(n + 1) {
-  margin-top: auto;
-} */
+
 header h2 {
   align-self: center;
   font-size: 2rem;
@@ -121,11 +119,42 @@ article img {
 
 nav ul {
   list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 3.5rem;
 }
-ul {
-  display: flex;
-  justify-content: space-around;
+
+li {
+  align-self: center;
+  justify-self: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 40%;
 }
+
+nav ul > :nth-child(1) {
+  grid-column: 2 / span 1;
+  opacity: 100%;
+}
+nav ul > :nth-child(2) {
+  grid-column: 3;
+}
+nav ul > :nth-child(3) {
+  grid-column: 4;
+}
+nav ul > :nth-child(4) {
+  grid-column: 5;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -215,26 +244,36 @@ h3 {
   color: #0000003a;
 }
 
-.textbox1 {
-font-family: "Frank Ruhl Libre", serif;
-font-size: 45px;
-font-weight: 900;
-line-height: 45px;
-letter-spacing: -0.02em;
-text-align: center;
+article h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  opacity: 80%;
 }
 
-.textboxrest {
+#container-opacity {
+  opacity: 70%;
+}
+
+.navbutton {
+  width: 100%;
+  background-color: #a9a19e;
+  height: 4.25rem;
+  border-radius: 0px;
+}
+
+footer {
+  height: 21.5rem;
+  background-color: #777574;
+}
+
+button p {
   font-family: "Fira Sans", sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0em;
-  text-align: center;
-  }
-
-  ******************* Nav buttom *****************
-
-  .navbutton {
-  display: flex;
-  }
+}
