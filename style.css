@@ -29,7 +29,6 @@ header {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
   height: 34rem;
-
   background-color: #c7ddea;
 }
 header > :nth-child(1) {
@@ -124,19 +123,40 @@ main h2 {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 2.813rem;
   font-weight: 900;
+  line-height: 2.81rem;
   color: #ffffff;
 }
 .main-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 38.25rem;
+  position: relative;
 }
+
+aside:nth-child(1) {
+  padding-left: 6.688rem;
+  flex-direction: column;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}  
+
+aside:nth-child(2) {
+  padding-right: 4rem;
+  padding-left: 6rem;
+}  
+
+aside button {
+  position: absolute;
+  top: 21rem;
+  left: 6.79rem;
+}
+
 aside {
   width: 31.313rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 6.438rem;
 }
 .main-info p {
   font-family: "Fira Sans", sans-serif;
@@ -172,6 +192,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 figure {
   height: 9.375rem;
@@ -219,15 +240,18 @@ figure {
   line-height: 1.125rem;
 }
 .about {
-  padding: 0 17.5rem 0 17.5rem;
   text-align: center;
+  height: 38rem;
+  padding-top: 4rem;
 }
+
 .about p {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #00000099;
+  padding: 3rem 17.5rem 0 17.5rem;
 }
 /* Main content med cards etc */
 
