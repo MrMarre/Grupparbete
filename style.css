@@ -139,12 +139,13 @@ aside:nth-child(1) {
   flex-direction: column;
   padding-right: 5rem;
   padding-bottom: 5rem;
-}  
+  /* Hejhallå testing testing */
+}
 
 aside:nth-child(2) {
   padding-right: 4rem;
   padding-left: 6rem;
-}  
+}
 
 aside button {
   position: absolute;
@@ -192,7 +193,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 figure {
   height: 9.375rem;
@@ -381,7 +381,6 @@ h3 {
   letter-spacing: -0.02em;
   color: #0000003a;
 }
-
 
 article h2 {
   font-family: "Frank Ruhl Libre", serif;
