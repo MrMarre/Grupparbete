@@ -3,15 +3,9 @@
   margin: 0;
   padding: 0;
   font-family: "Frank Ruhl Libre", serif;
+  font-family: "Fira Sans", sans-serif;
+}
 
-  font-family: "Fira Sans", sans-serif;
-}
-h2 {
-  font-family: "Frank Ruhl Libre", serif;
-}
-p {
-  font-family: "Fira Sans", sans-serif;
-}
 body {
   width: 100vw;
   height: 100vh;
@@ -32,21 +26,25 @@ header {
   height: 34rem;
   background-color: #c7ddea;
 }
+
 header > :nth-child(1) {
   grid-column: 1 / span 3;
   grid-row: 1 / span 2;
   justify-content: flex-end;
 }
+
 header > :nth-child(2) {
   grid-column: 4 / span 3;
   grid-row: 1 / span 1;
   background-color: #f17949;
 }
+
 header > :nth-child(3) {
   grid-column: 4 / span 3;
   grid-row: 2 / span 1;
   background-color: #ffb939;
 }
+
 header h1 {
   font-size: 2.813rem;
   font-weight: 900;
@@ -60,12 +58,14 @@ header h2 {
   font-weight: 900;
   font-family: "Frank Ruhl Libre", serif;
 }
+
 /* Nedan de två högra gridrutorna med specifikt fall för <p> */
 header article p:nth-child(1) {
   font-size: 0.688rem;
   color: #00000080;
   font-weight: 700;
 }
+
 /* Ovan de två högra gridrutorna med specifikt fall för <p> */
 header p {
   /* alla p-element */
@@ -77,11 +77,13 @@ header p {
   padding-left: 7rem;
   align-self: center;
 }
+
 .white-text {
   font-size: 0.875rem;
   font-weight: 700;
   color: #ffffff;
 }
+
 button {
   background-color: #ffffff;
   color: #000000cc;
@@ -100,6 +102,7 @@ header article {
   justify-content: center;
   flex-direction: column;
 }
+
 header article button {
   position: absolute;
   left: 9rem;
@@ -127,11 +130,12 @@ main h2 {
   line-height: 2.81rem;
   color: #ffffff;
 }
+
 .main-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 38.25rem;
+  height: 33.25rem;
   position: relative;
 }
 
@@ -140,7 +144,6 @@ aside:nth-child(1) {
   flex-direction: column;
   padding-right: 5rem;
   padding-bottom: 5rem;
-
 }
 
 aside:nth-child(2) {
@@ -150,7 +153,7 @@ aside:nth-child(2) {
 
 aside button {
   position: absolute;
-  top: 21rem;
+  top: 20rem;
   left: 6.79rem;
 }
 
@@ -160,6 +163,7 @@ aside {
   justify-content: center;
   align-items: center;
 }
+
 .main-info p {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
@@ -185,6 +189,7 @@ main {
   align-items: center;
   justify-content: space-evenly;
 }
+
 .card {
   height: 19.25rem;
   width: 16rem;
@@ -195,6 +200,7 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 figure {
   height: 9.375rem;
   width: 14.75rem;
@@ -207,30 +213,33 @@ figure {
   margin-top: -1.5rem;
   background-position-y: -3%;
 }
+
 .bg-child {
   background-image: url(./assets/child.png);
   background-color: #c7ddea;
   background-position-y: -34%;
 }
+
 .bg-adult {
   background-image: url(./assets/adult.png);
   background-color: #fab131;
 }
+
 .bg-old-fart {
   background-image: url(./assets/old.png);
   background-color: #f17949;
-  background-size: 68%;
+  background-size: 57%;
+  background-position-y: -11%;
 }
-/* .card img {
-  height: 9.375rem;
-  width: 14.75rem;
-} */
+
 .card h3 {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 700;
   font-size: 1rem;
   color: #000000e5;
+  padding-top: 0.5rem;
 }
+
 .card p {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
@@ -240,10 +249,15 @@ figure {
   padding: 0 1.313rem 0 1.313rem;
   line-height: 1.125rem;
 }
+
 .about {
   text-align: center;
   height: 38rem;
   padding-top: 4rem;
+}
+
+.about h2 {
+  padding-bottom: 3rem;
 }
 
 .about p {
@@ -252,8 +266,9 @@ figure {
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #00000099;
-  padding: 3rem 17.5rem 0 17.5rem;
+  padding: 0rem 17.5rem 0 17.5rem;
 }
+
 /* Main content med cards etc */
 
 nav ul {
@@ -376,18 +391,18 @@ section > :nth-child(6) {
 
 h3 {
   font-family: "Frank Ruhl Libre", serif;
-  font-size: 35px;
+  font-size: 2.18rem;
   font-weight: 900;
-  line-height: 35px;
+  line-height: 2.18rem;
   letter-spacing: -0.02em;
   color: #0000003a;
 }
 
 article h2 {
   font-family: "Frank Ruhl Libre", serif;
-  font-size: 45px;
+  font-size: 2.81rem;
   font-weight: 900;
-  line-height: 45px;
+  line-height: 2.81rem;
   letter-spacing: -0.02em;
   text-align: center;
   opacity: 80%;
@@ -411,8 +426,8 @@ footer {
 
 button p {
   font-family: "Fira Sans", sans-serif;
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   letter-spacing: 0em;
 }
