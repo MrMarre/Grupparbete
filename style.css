@@ -95,6 +95,10 @@ button {
   border-style: none;
   box-shadow: 0px 2px 0px 0px #0000001a;
 }
+button:hover {
+  transition-duration: 0.5s;
+  background-color: #f8dadacb;
+}
 
 header article {
   position: relative;
@@ -147,13 +151,14 @@ aside:nth-child(1) {
 }
 
 aside:nth-child(2) {
-  padding-right: 4rem;
-  padding-left: 6rem;
+  margin-top: 2.5rem;
+  padding-left: 8rem;
+  padding-right: 7rem;
 }
 
 aside button {
   position: absolute;
-  top: 20rem;
+  top: 19rem;
   left: 6.79rem;
 }
 
@@ -167,7 +172,7 @@ aside {
 .main-info p {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
-  font-size: 0.875;
+  font-size: 0.875rem;
   line-height: 1.5rem;
   color: #00000099;
 }
@@ -188,6 +193,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 0 2.5rem 0 2.5rem;
 }
 
 .card {
@@ -398,7 +404,7 @@ h3 {
   color: #0000003a;
 }
 
-article h2 {
+section h2 {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 2.81rem;
   font-weight: 900;
@@ -417,6 +423,10 @@ article h2 {
   background-color: #a9a19e;
   height: 4.25rem;
   border-radius: 0px;
+}
+.navbutton:hover {
+  background-color: #ded4d0;
+  transition-duration: 0.8s;
 }
 
 footer {
